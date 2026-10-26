@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Find din tid",
+    "slug": "innt-godkendelsesopgave-2",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#FAF8F5",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#FAF8F5"
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Tillad appen at bruge din lokation, så den kan finde den nærmeste tatovør."
+        }
+      ],
+      "expo-status-bar"
+    ]
+  }
+}
